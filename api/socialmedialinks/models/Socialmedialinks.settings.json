@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "socialmedialinks",
+    "description": "social media links"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "mediaLinkImage": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "url": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

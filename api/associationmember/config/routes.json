@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/associationmembers",
+      "handler": "Associationmember.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/associationmembers/count",
+      "handler": "Associationmember.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/associationmembers/:_id",
+      "handler": "Associationmember.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/associationmembers",
+      "handler": "Associationmember.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/associationmembers/:_id",
+      "handler": "Associationmember.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/associationmembers/:_id",
+      "handler": "Associationmember.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

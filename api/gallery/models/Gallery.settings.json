@@ -1,0 +1,41 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "gallery",
+    "description": "galleryImages"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "src": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "thumbnail": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "thumbnailWidth": {
+      "default": "",
+      "type": "integer"
+    },
+    "thumbnailHeight": {
+      "default": "",
+      "type": "integer"
+    },
+    "caption": {
+      "default": "",
+      "type": "string"
+    },
+    "tags": {
+      "default": "",
+      "type": "json"
+    }
+  }
+}

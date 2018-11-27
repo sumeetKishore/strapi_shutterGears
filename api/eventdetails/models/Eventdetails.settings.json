@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "eventdetails",
+  "info": {
+    "name": "eventdetails",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "eventData": {
+      "default": "",
+      "type": "json"
+    },
+    "eventId": {
+      "default": "",
+      "type": "string"
+    },
+    "eventDescription": {
+      "default": "",
+      "type": "text"
+    },
+    "safetyNorms": {
+      "default": "",
+      "type": "json"
+    },
+    "jury": {
+      "default": "",
+      "type": "json"
+    }
+  }
+}

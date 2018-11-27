@@ -1,0 +1,43 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "events",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "eventTime": {
+      "default": "",
+      "type": "string"
+    },
+    "eventId": {
+      "default": "",
+      "type": "string"
+    },
+    "eventStartDate": {
+      "default": "",
+      "type": "date"
+    },
+    "eventEndDate": {
+      "default": "",
+      "type": "date"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "eventDate": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

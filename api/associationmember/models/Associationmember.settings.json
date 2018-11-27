@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "associationmember",
+  "info": {
+    "name": "associationmember",
+    "description": "members of association"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "link": {
+      "default": "",
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "scale": {
+      "default": "",
+      "type": "integer"
+    }
+  }
+}
